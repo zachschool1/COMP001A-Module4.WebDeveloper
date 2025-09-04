@@ -1,12 +1,15 @@
 body{
-    background: linear-gradient(white,black,red);
+    background: linear-gradient(#a986eb,red);
     min-height:100vh;
     width:auto;
-    padding: 8px 25px 8px 25px;
+    padding: 8px 20px 8px 20px;
     margin:0;
     display:flex;
     flex-direction: column;
+    text-align: center;
+    height:100%;
 }
+
 
 nav ul{
     display:flex;
@@ -15,15 +18,26 @@ nav ul{
     align-items: center;
     list-style-type: none;
     padding:0;
+    
 }
+
+
 nav {
     border:1px black ridge;
     padding: 0 5px 0 5px;
     min-width:fit-content;
     width: 75%;
     justify-self: center;
+    
+}
+hr {
+    border:none;
+    height:2px;
+    background-color:black;
 }
 
 footer {
-    text-align: center;
+    position:relative;
+    bottom: 0;
+    align-self: center;
 }

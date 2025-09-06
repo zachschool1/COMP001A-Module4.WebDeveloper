@@ -21,7 +21,11 @@ nav ul{
     
 }
 
-
+#quick-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type:circle;
+}
 nav {
     border:1px black ridge;
     padding: 0 5px 0 5px;
